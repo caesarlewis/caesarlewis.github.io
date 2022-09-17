@@ -6,7 +6,7 @@
   <link href="https://caesarlewis.github.io/atom.xml" rel="self"/>
   
   <link href="https://caesarlewis.github.io/"/>
-  <updated>2022-08-27T11:57:41.009Z</updated>
+  <updated>2022-09-17T08:01:31.526Z</updated>
   <id>https://caesarlewis.github.io/</id>
   
   <author>
@@ -17,18 +17,58 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title></title>
+    <link href="https://caesarlewis.github.io/posts/0.html"/>
+    <id>https://caesarlewis.github.io/posts/0.html</id>
+    <published>2022-09-17T08:01:31.526Z</published>
+    <updated>2022-09-17T08:01:31.526Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="MySQL-运维"><a href="#MySQL-运维" class="headerlink" title="MySQL 运维"></a>MySQL 运维</h1><h2 id="死锁问题解决"><a href="#死锁问题解决" class="headerlink" title="死锁问题解决"></a>死锁问题解决</h2><h2 id="查看所有线程"><a href="#查看所有线程" class="headerlink" title="查看所有线程"></a>查看所有线程</h2><p>show  processlist;</p><h2 id="当前运行的所有事务"><a href="#当前运行的所有事务" class="headerlink" title="当前运行的所有事务"></a>当前运行的所有事务</h2><p>SELECT * FROM information_schema.INNODB_TRX;</p><h2 id="当前运行的所有锁"><a href="#当前运行的所有锁" class="headerlink" title="当前运行的所有锁"></a>当前运行的所有锁</h2><p>SELECT * FROM information_schema.INNODB_LOCKs;</p><p>使用Kill 命令杀死线程</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;MySQL-运维&quot;&gt;&lt;a href=&quot;#MySQL-运维&quot; class=&quot;headerlink&quot; title=&quot;MySQL 运维&quot;&gt;&lt;/a&gt;MySQL 运维&lt;/h1&gt;&lt;h2 id=&quot;死锁问题解决&quot;&gt;&lt;a href=&quot;#死锁问题解决&quot; class=&quot;headerli</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
     <title>Hello World</title>
     <link href="https://caesarlewis.github.io/posts/4a17b156.html"/>
     <id>https://caesarlewis.github.io/posts/4a17b156.html</id>
-    <published>2022-08-27T11:57:41.009Z</published>
-    <updated>2022-08-27T11:57:41.009Z</updated>
+    <published>2022-09-17T08:01:31.526Z</published>
+    <updated>2022-09-17T08:01:31.526Z</updated>
     
-    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>    <div id="aplayer-PTMkvbpz" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="2339326384" data-server="netease" data-type="playlist" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#ad7a86"    ></div>    <div id="aplayer-wAbiyEta" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="5068325488" data-server="netease" data-type="playlist" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="321px" data-preload="auto" data-theme="#555"    ></div>]]></content>
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>    <div id="aplayer-fzQyNaFl" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="2339326384" data-server="netease" data-type="playlist" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#ad7a86"    ></div>    <div id="aplayer-oxzfElyL" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="5068325488" data-server="netease" data-type="playlist" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="321px" data-preload="auto" data-theme="#555"    ></div>]]></content>
     
     
       
       
     <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt; for</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title></title>
+    <link href="https://caesarlewis.github.io/posts/0.html"/>
+    <id>https://caesarlewis.github.io/posts/0.html</id>
+    <published>2022-09-17T08:01:31.526Z</published>
+    <updated>2022-09-17T08:01:31.526Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="魔兽世界配置"><a href="#魔兽世界配置" class="headerlink" title="魔兽世界配置"></a>魔兽世界配置</h1><h2 id="反和谐配置"><a href="#反和谐配置" class="headerlink" title="反和谐配置"></a>反和谐配置</h2><ol><li><p>进入World of Warcraft_classic_\WTF目录</p></li><li><p>使用笔记本打开Config.wtf文件</p></li><li><p>在最后添加 </p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">SET overrideArchive &quot;0&quot;</span><br></pre></td></tr></table></figure></li><li><p>保存文件，并将文件设置为只读模式</p></li></ol>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;魔兽世界配置&quot;&gt;&lt;a href=&quot;#魔兽世界配置&quot; class=&quot;headerlink&quot; title=&quot;魔兽世界配置&quot;&gt;&lt;/a&gt;魔兽世界配置&lt;/h1&gt;&lt;h2 id=&quot;反和谐配置&quot;&gt;&lt;a href=&quot;#反和谐配置&quot; class=&quot;headerlink&quot; title=</summary>
       
     
     

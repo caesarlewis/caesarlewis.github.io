@@ -4,6 +4,71 @@
   
     
     <entry>
+      <title>Maven疑难杂症</title>
+      <link href="/posts/fd00229f.html"/>
+      <url>/posts/fd00229f.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="Maven-新版本-打包报错-maven-default-http-blocker-http-0-0-0-0-Blocked-mirror-for-repositories"><a href="#Maven-新版本-打包报错-maven-default-http-blocker-http-0-0-0-0-Blocked-mirror-for-repositories" class="headerlink" title="Maven 新版本 打包报错 maven-default-http-blocker (http://0.0.0.0/): Blocked mirror for repositories"></a>Maven 新版本 打包报错 maven-default-http-blocker (<a href="http://0.0.0.0/">http://0.0.0.0/</a>): Blocked mirror for repositories</h1><blockquote><p>Maven新版本不允许使用http来访问资源库（3.8.1以上版本）</p></blockquote><p>配置修改方案：</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">将Maven的Setting中的http改为https</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title></title>
+      <link href="/posts/0.html"/>
+      <url>/posts/0.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="MySQL-运维"><a href="#MySQL-运维" class="headerlink" title="MySQL 运维"></a>MySQL 运维</h1><h2 id="死锁问题解决"><a href="#死锁问题解决" class="headerlink" title="死锁问题解决"></a>死锁问题解决</h2><h2 id="查看所有线程"><a href="#查看所有线程" class="headerlink" title="查看所有线程"></a>查看所有线程</h2><p>show  processlist;</p><h2 id="当前运行的所有事务"><a href="#当前运行的所有事务" class="headerlink" title="当前运行的所有事务"></a>当前运行的所有事务</h2><p>SELECT * FROM information_schema.INNODB_TRX;</p><h2 id="当前运行的所有锁"><a href="#当前运行的所有锁" class="headerlink" title="当前运行的所有锁"></a>当前运行的所有锁</h2><p>SELECT * FROM information_schema.INNODB_LOCKs;</p><p>使用Kill 命令杀死线程</p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Hello World</title>
+      <link href="/posts/4a17b156.html"/>
+      <url>/posts/4a17b156.html</url>
+      
+        <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>    <div id="aplayer-LhCiFvGk" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="2339326384" data-server="netease" data-type="playlist" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#ad7a86"    ></div>    <div id="aplayer-qpWMgAjP" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="5068325488" data-server="netease" data-type="playlist" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="321px" data-preload="auto" data-theme="#555"    ></div>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title></title>
+      <link href="/posts/0.html"/>
+      <url>/posts/0.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="多线程"><a href="#多线程" class="headerlink" title="多线程"></a>多线程</h1><h2 id="多线程基本原理"><a href="#多线程基本原理" class="headerlink" title="多线程基本原理"></a>多线程基本原理</h2><h3 id="线程的运行状态"><a href="#线程的运行状态" class="headerlink" title="线程的运行状态"></a>线程的运行状态</h3><h3 id="线程的状态"><a href="#线程的状态" class="headerlink" title="线程的状态"></a>线程的状态</h3><ul><li>NEW：初始状态，线程被构建，但是还没有调用start方法</li><li>RUNNABLED：运行状态，Java线程把系统中的就绪与运行两种状态都统一为“运行中”</li><li>BLOCKED：阻塞状态，表示线程等待状态，线程因为某种原因放弃了cpu使用权<ul><li>等待阻塞：运行线程执行的wait方法，jvm会把当前线程加入到等待队列</li><li>同步阻塞：运行的线程在获取对象的同步锁，若该同步锁被其他线程持有，那么jvm会把当前的线程放入锁池中</li><li>其他阻塞：运行的线程执行Thread.sleep或者t.join方法，或者发出了I&#x2F;O请求，jvm会把当前线程设置为阻塞状态，当sleep结束，join线程终止，io处理完毕则线程恢复</li></ul></li><li>WAITING：等待状态</li><li>TIME_WAITING:超市等待状态，超时以后自动返回</li><li>TERMINATED:终止状态，表示当前线程执行完毕</li></ul><h3 id="线程的终止"><a href="#线程的终止" class="headerlink" title="线程的终止"></a>线程的终止</h3><h2 id="Thread-Dump日志分析"><a href="#Thread-Dump日志分析" class="headerlink" title="Thread Dump日志分析"></a>Thread Dump日志分析</h2>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title></title>
+      <link href="/posts/0.html"/>
+      <url>/posts/0.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="魔兽世界配置"><a href="#魔兽世界配置" class="headerlink" title="魔兽世界配置"></a>魔兽世界配置</h1><h2 id="反和谐配置"><a href="#反和谐配置" class="headerlink" title="反和谐配置"></a>反和谐配置</h2><ol><li><p>进入World of Warcraft_classic_\WTF目录</p></li><li><p>使用笔记本打开Config.wtf文件</p></li><li><p>在最后添加 </p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">SET overrideArchive &quot;0&quot;</span><br></pre></td></tr></table></figure></li><li><p>保存文件，并将文件设置为只读模式</p></li></ol>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>办公工具</title>
       <link href="/posts/28bd7ebe.html"/>
       <url>/posts/28bd7ebe.html</url>
@@ -35,58 +100,6 @@
       <url>/posts/af4f715c.html</url>
       
         <content type="html"><![CDATA[<h1 id="npm更换源"><a href="#npm更换源" class="headerlink" title="npm更换源"></a>npm更换源</h1><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm config set registry https://registry.npm.taobao.org</span><br></pre></td></tr></table></figure><blockquote><p>yarn 同理，将npm改成yarn即可</p></blockquote>]]></content>
-      
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title></title>
-      <link href="/posts/0.html"/>
-      <url>/posts/0.html</url>
-      
-        <content type="html"><![CDATA[<h1 id="MySQL-运维"><a href="#MySQL-运维" class="headerlink" title="MySQL 运维"></a>MySQL 运维</h1><h2 id="死锁问题解决"><a href="#死锁问题解决" class="headerlink" title="死锁问题解决"></a>死锁问题解决</h2><h2 id="查看所有线程"><a href="#查看所有线程" class="headerlink" title="查看所有线程"></a>查看所有线程</h2><p>show  processlist;</p><h2 id="当前运行的所有事务"><a href="#当前运行的所有事务" class="headerlink" title="当前运行的所有事务"></a>当前运行的所有事务</h2><p>SELECT * FROM information_schema.INNODB_TRX;</p><h2 id="当前运行的所有锁"><a href="#当前运行的所有锁" class="headerlink" title="当前运行的所有锁"></a>当前运行的所有锁</h2><p>SELECT * FROM information_schema.INNODB_LOCKs;</p><p>使用Kill 命令杀死线程</p>]]></content>
-      
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>Hello World</title>
-      <link href="/posts/4a17b156.html"/>
-      <url>/posts/4a17b156.html</url>
-      
-        <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>    <div id="aplayer-FiVxiKqk" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="2339326384" data-server="netease" data-type="playlist" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#ad7a86"    ></div>    <div id="aplayer-tFbQbyJH" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="5068325488" data-server="netease" data-type="playlist" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="321px" data-preload="auto" data-theme="#555"    ></div>]]></content>
-      
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title></title>
-      <link href="/posts/0.html"/>
-      <url>/posts/0.html</url>
-      
-        <content type="html"><![CDATA[<h1 id="多线程"><a href="#多线程" class="headerlink" title="多线程"></a>多线程</h1><h2 id="多线程基本原理"><a href="#多线程基本原理" class="headerlink" title="多线程基本原理"></a>多线程基本原理</h2><h3 id="线程的运行状态"><a href="#线程的运行状态" class="headerlink" title="线程的运行状态"></a>线程的运行状态</h3><h3 id="线程的状态"><a href="#线程的状态" class="headerlink" title="线程的状态"></a>线程的状态</h3><ul><li>NEW：初始状态，线程被构建，但是还没有调用start方法</li><li>RUNNABLED：运行状态，Java线程把系统中的就绪与运行两种状态都统一为“运行中”</li><li>BLOCKED：阻塞状态，表示线程等待状态，线程因为某种原因放弃了cpu使用权<ul><li>等待阻塞：运行线程执行的wait方法，jvm会把当前线程加入到等待队列</li><li>同步阻塞：运行的线程在获取对象的同步锁，若该同步锁被其他线程持有，那么jvm会把当前的线程放入锁池中</li><li>其他阻塞：运行的线程执行Thread.sleep或者t.join方法，或者发出了I&#x2F;O请求，jvm会把当前线程设置为阻塞状态，当sleep结束，join线程终止，io处理完毕则线程恢复</li></ul></li><li>WAITING：等待状态</li><li>TIME_WAITING:超市等待状态，超时以后自动返回</li><li>TERMINATED:终止状态，表示当前线程执行完毕</li></ul><h3 id="线程的终止"><a href="#线程的终止" class="headerlink" title="线程的终止"></a>线程的终止</h3><h2 id="Thread-Dump日志分析"><a href="#Thread-Dump日志分析" class="headerlink" title="Thread Dump日志分析"></a>Thread Dump日志分析</h2>]]></content>
-      
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title></title>
-      <link href="/posts/0.html"/>
-      <url>/posts/0.html</url>
-      
-        <content type="html"><![CDATA[<h1 id="魔兽世界配置"><a href="#魔兽世界配置" class="headerlink" title="魔兽世界配置"></a>魔兽世界配置</h1><h2 id="反和谐配置"><a href="#反和谐配置" class="headerlink" title="反和谐配置"></a>反和谐配置</h2><ol><li><p>进入World of Warcraft_classic_\WTF目录</p></li><li><p>使用笔记本打开Config.wtf文件</p></li><li><p>在最后添加 </p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">SET overrideArchive &quot;0&quot;</span><br></pre></td></tr></table></figure></li><li><p>保存文件，并将文件设置为只读模式</p></li></ol>]]></content>
       
       
       

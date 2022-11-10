@@ -4,9 +4,9 @@
   
     
     <entry>
-      <title></title>
-      <link href="/posts/0.html"/>
-      <url>/posts/0.html</url>
+      <title>Anaconda更换源</title>
+      <link href="/posts/f5c23575.html"/>
+      <url>/posts/f5c23575.html</url>
       
         <content type="html"><![CDATA[<h1 id="Anaconda更换源"><a href="#Anaconda更换源" class="headerlink" title="Anaconda更换源"></a>Anaconda更换源</h1><h2 id="换源"><a href="#换源" class="headerlink" title="换源"></a>换源</h2><h3 id="清华源"><a href="#清华源" class="headerlink" title="清华源"></a>清华源</h3><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free/</span><br><span class="line">conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main/</span><br><span class="line">conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/conda-forge/</span><br><span class="line">conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/msys2/</span><br><span class="line">conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/menpo/</span><br><span class="line"></span><br><span class="line">conda config --set show_channel_urls yes</span><br></pre></td></tr></table></figure><h3 id="中科大源"><a href="#中科大源" class="headerlink" title="中科大源"></a>中科大源</h3><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">conda config --add channels https://mirrors.ustc.edu.cn/anaconda/pkgs/main/</span><br><span class="line">conda config --add channels https://mirrors.ustc.edu.cn/anaconda/pkgs/free/</span><br><span class="line">conda config --add channels https://mirrors.ustc.edu.cn/anaconda/cloud/conda-forge/</span><br><span class="line">conda config --add channels https://mirrors.ustc.edu.cn/anaconda/cloud/msys2/</span><br><span class="line">conda config --add channels https://mirrors.ustc.edu.cn/anaconda/cloud/bioconda/</span><br><span class="line">conda config --add channels https://mirrors.ustc.edu.cn/anaconda/cloud/menpo/</span><br><span class="line"> </span><br><span class="line">conda config --set show_channel_urls yes</span><br></pre></td></tr></table></figure><h2 id="查看源"><a href="#查看源" class="headerlink" title="查看源"></a>查看源</h2><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">conda config --show</span><br></pre></td></tr></table></figure><h2 id="恢复默认源"><a href="#恢复默认源" class="headerlink" title="恢复默认源"></a>恢复默认源</h2><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">conda config --remove-key channels</span><br></pre></td></tr></table></figure>]]></content>
       
@@ -17,24 +17,11 @@
     
     
     <entry>
-      <title></title>
-      <link href="/posts/0.html"/>
-      <url>/posts/0.html</url>
+      <title>GitHub 疑难杂症</title>
+      <link href="/posts/57c2aac8.html"/>
+      <url>/posts/57c2aac8.html</url>
       
-        <content type="html"><![CDATA[<h1 id="GitHub-疑难杂症"><a href="#GitHub-疑难杂症" class="headerlink" title="GitHub 疑难杂症 :"></a>GitHub 疑难杂症 :</h1><h2 id="OpenSSL"><a href="#OpenSSL" class="headerlink" title="OpenSSL"></a>OpenSSL</h2><p>错误：fatal: unable to access ‘https:&#x2F;&#x2F;<a href="https://so.csdn.net/so/search?q=github&spm=1001.2101.3001.7020">github</a>.com&#x2F;…’: OpenSSL SSL_read: Connection was reset, errno 10054</p><p>原因：产生原因：一般是这是因为服务器的<a href="https://so.csdn.net/so/search?q=SSL&spm=1001.2101.3001.7020">SSL</a>证书没有经过第三方机构的签署，所以才报错</p><p>解决方法：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git config --global http.sslVerify false</span><br></pre></td></tr></table></figure><h2 id="GitHub加速"><a href="#GitHub加速" class="headerlink" title="GitHub加速"></a>GitHub加速</h2><h3 id="根本原因"><a href="#根本原因" class="headerlink" title="根本原因"></a>根本原因</h3><blockquote><p>GitHub的CDN(Content Delivery Network,即内容分发网络)域名遭到DNS污染，无法连接使用GitHub的加速分发服务器，所以国内访问速度较慢。</p></blockquote><h3 id="解决方案：修改hosts文件"><a href="#解决方案：修改hosts文件" class="headerlink" title="解决方案：修改hosts文件"></a>解决方案：修改hosts文件</h3><blockquote><p>修改本地host文件，增加配置内容，绕过域名解析，达到加速的目的。</p></blockquote><ul><li><p>获取方式1:</p><ul><li>访问链接：<a href="https://raw.hellogithub.com/hosts%EF%BC%88ps%EF%BC%9A%E8%BF%99%E9%93%BE%E6%8E%A5%E5%AE%9A%E6%97%B6%E6%9B%B4%E6%96%B0%EF%BC%89%EF%BC%8C%E8%8E%B7%E5%8F%96%E5%AF%B9%E5%BA%94%E7%9A%84host%E9%85%8D%E7%BD%AE%E3%80%82">https://raw.hellogithub.com/hosts（ps：这链接定时更新），获取对应的host配置。</a></li><li>如果需要工具自动更新的话，点击链接：<a href="https://github.com/oldj/SwitchHosts">https://github.com/oldj/SwitchHosts</a></li></ul></li><li><p>获取方式2：</p><ul><li>github.global.ssl.fastly.net.ipaddress.com&#x2F;#ipinfo 访问这个网址。会得到CDN和IP地址，对应github.com</li><li>github.com.ipaddress.com&#x2F;#ipinfo 访问这个网址，会得到CDN和IP地址，对应github.global.ssl.fastly.net。</li></ul></li><li><p>添加hosts</p></li><li><pre><code>151.101.1.6             github.global.ssl.fastly.net140.82.113.4            github.com</code></pre></li></ul>]]></content>
-      
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title></title>
-      <link href="/posts/0.html"/>
-      <url>/posts/0.html</url>
-      
-        <content type="html"><![CDATA[<h1 id="MySQL-运维"><a href="#MySQL-运维" class="headerlink" title="MySQL 运维"></a>MySQL 运维</h1><h2 id="死锁问题解决"><a href="#死锁问题解决" class="headerlink" title="死锁问题解决"></a>死锁问题解决</h2><h2 id="查看所有线程"><a href="#查看所有线程" class="headerlink" title="查看所有线程"></a>查看所有线程</h2><p>show  processlist;</p><h2 id="当前运行的所有事务"><a href="#当前运行的所有事务" class="headerlink" title="当前运行的所有事务"></a>当前运行的所有事务</h2><p>SELECT * FROM information_schema.INNODB_TRX;</p><h2 id="当前运行的所有锁"><a href="#当前运行的所有锁" class="headerlink" title="当前运行的所有锁"></a>当前运行的所有锁</h2><p>SELECT * FROM information_schema.INNODB_LOCKs;</p><p>使用Kill 命令杀死线程</p>]]></content>
+        <content type="html"><![CDATA[<h2 id="OpenSSL"><a href="#OpenSSL" class="headerlink" title="OpenSSL"></a>OpenSSL</h2><p>错误：fatal: unable to access ‘https:&#x2F;&#x2F;<a href="https://so.csdn.net/so/search?q=github&spm=1001.2101.3001.7020">github</a>.com&#x2F;…’: OpenSSL SSL_read: Connection was reset, errno 10054</p><p>原因：产生原因：一般是这是因为服务器的<a href="https://so.csdn.net/so/search?q=SSL&spm=1001.2101.3001.7020">SSL</a>证书没有经过第三方机构的签署，所以才报错</p><p>解决方法：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git config --global http.sslVerify false</span><br></pre></td></tr></table></figure><h2 id="GitHub加速"><a href="#GitHub加速" class="headerlink" title="GitHub加速"></a>GitHub加速</h2><h3 id="根本原因"><a href="#根本原因" class="headerlink" title="根本原因"></a>根本原因</h3><blockquote><p>GitHub的CDN(Content Delivery Network,即内容分发网络)域名遭到DNS污染，无法连接使用GitHub的加速分发服务器，所以国内访问速度较慢。</p></blockquote><h3 id="解决方案：修改hosts文件"><a href="#解决方案：修改hosts文件" class="headerlink" title="解决方案：修改hosts文件"></a>解决方案：修改hosts文件</h3><blockquote><p>修改本地host文件，增加配置内容，绕过域名解析，达到加速的目的。</p></blockquote><ul><li><p>获取方式1:</p><ul><li>访问链接：<a href="https://raw.hellogithub.com/hosts%EF%BC%88ps%EF%BC%9A%E8%BF%99%E9%93%BE%E6%8E%A5%E5%AE%9A%E6%97%B6%E6%9B%B4%E6%96%B0%EF%BC%89%EF%BC%8C%E8%8E%B7%E5%8F%96%E5%AF%B9%E5%BA%94%E7%9A%84host%E9%85%8D%E7%BD%AE%E3%80%82">https://raw.hellogithub.com/hosts（ps：这链接定时更新），获取对应的host配置。</a></li><li>如果需要工具自动更新的话，点击链接：<a href="https://github.com/oldj/SwitchHosts">https://github.com/oldj/SwitchHosts</a></li></ul></li><li><p>获取方式2：</p><ul><li>github.global.ssl.fastly.net.ipaddress.com&#x2F;#ipinfo 访问这个网址。会得到CDN和IP地址，对应github.com</li><li>github.com.ipaddress.com&#x2F;#ipinfo 访问这个网址，会得到CDN和IP地址，对应github.global.ssl.fastly.net。</li></ul></li><li><p>添加hosts</p></li><li><pre><code>151.101.1.6             github.global.ssl.fastly.net140.82.113.4            github.com</code></pre></li></ul>]]></content>
       
       
       
@@ -47,7 +34,7 @@
       <link href="/posts/4a17b156.html"/>
       <url>/posts/4a17b156.html</url>
       
-        <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>    <div id="aplayer-ejpxdkdQ" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="2339326384" data-server="netease" data-type="playlist" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#ad7a86"    ></div>    <div id="aplayer-ugqbMxBp" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="5068325488" data-server="netease" data-type="playlist" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="321px" data-preload="auto" data-theme="#555"    ></div>]]></content>
+        <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>    <div id="aplayer-lZOlKIjm" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="2339326384" data-server="netease" data-type="playlist" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#ad7a86"    ></div>    <div id="aplayer-zPnCXsGH" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="5068325488" data-server="netease" data-type="playlist" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="321px" data-preload="auto" data-theme="#555"    ></div>]]></content>
       
       
       
@@ -56,24 +43,11 @@
     
     
     <entry>
-      <title></title>
-      <link href="/posts/0.html"/>
-      <url>/posts/0.html</url>
+      <title>MySQL 运维</title>
+      <link href="/posts/64a3bb0a.html"/>
+      <url>/posts/64a3bb0a.html</url>
       
-        <content type="html"><![CDATA[<h1 id="多线程"><a href="#多线程" class="headerlink" title="多线程"></a>多线程</h1><h2 id="多线程基本原理"><a href="#多线程基本原理" class="headerlink" title="多线程基本原理"></a>多线程基本原理</h2><h3 id="线程的运行状态"><a href="#线程的运行状态" class="headerlink" title="线程的运行状态"></a>线程的运行状态</h3><h3 id="线程的状态"><a href="#线程的状态" class="headerlink" title="线程的状态"></a>线程的状态</h3><ul><li>NEW：初始状态，线程被构建，但是还没有调用start方法</li><li>RUNNABLED：运行状态，Java线程把系统中的就绪与运行两种状态都统一为“运行中”</li><li>BLOCKED：阻塞状态，表示线程等待状态，线程因为某种原因放弃了cpu使用权<ul><li>等待阻塞：运行线程执行的wait方法，jvm会把当前线程加入到等待队列</li><li>同步阻塞：运行的线程在获取对象的同步锁，若该同步锁被其他线程持有，那么jvm会把当前的线程放入锁池中</li><li>其他阻塞：运行的线程执行Thread.sleep或者t.join方法，或者发出了I&#x2F;O请求，jvm会把当前线程设置为阻塞状态，当sleep结束，join线程终止，io处理完毕则线程恢复</li></ul></li><li>WAITING：等待状态</li><li>TIME_WAITING:超市等待状态，超时以后自动返回</li><li>TERMINATED:终止状态，表示当前线程执行完毕</li></ul><h3 id="线程的终止"><a href="#线程的终止" class="headerlink" title="线程的终止"></a>线程的终止</h3><h2 id="Thread-Dump日志分析"><a href="#Thread-Dump日志分析" class="headerlink" title="Thread Dump日志分析"></a>Thread Dump日志分析</h2>]]></content>
-      
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title></title>
-      <link href="/posts/0.html"/>
-      <url>/posts/0.html</url>
-      
-        <content type="html"><![CDATA[<h1 id="魔兽世界配置"><a href="#魔兽世界配置" class="headerlink" title="魔兽世界配置"></a>魔兽世界配置</h1><h2 id="反和谐配置"><a href="#反和谐配置" class="headerlink" title="反和谐配置"></a>反和谐配置</h2><ol><li><p>进入World of Warcraft_classic_\WTF目录</p></li><li><p>使用笔记本打开Config.wtf文件</p></li><li><p>在最后添加 </p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">SET overrideArchive &quot;0&quot;</span><br></pre></td></tr></table></figure></li><li><p>保存文件，并将文件设置为只读模式</p></li></ol>]]></content>
+        <content type="html"><![CDATA[<h1 id="MySQL-运维"><a href="#MySQL-运维" class="headerlink" title="MySQL 运维"></a>MySQL 运维</h1><h2 id="死锁问题解决"><a href="#死锁问题解决" class="headerlink" title="死锁问题解决"></a>死锁问题解决</h2><h2 id="查看所有线程"><a href="#查看所有线程" class="headerlink" title="查看所有线程"></a>查看所有线程</h2><p>show  processlist;</p><h2 id="当前运行的所有事务"><a href="#当前运行的所有事务" class="headerlink" title="当前运行的所有事务"></a>当前运行的所有事务</h2><p>SELECT * FROM information_schema.INNODB_TRX;</p><h2 id="当前运行的所有锁"><a href="#当前运行的所有锁" class="headerlink" title="当前运行的所有锁"></a>当前运行的所有锁</h2><p>SELECT * FROM information_schema.INNODB_LOCKs;</p><p>使用Kill 命令杀死线程</p>]]></content>
       
       
       
@@ -87,6 +61,32 @@
       <url>/posts/2a6f096a.html</url>
       
         <content type="html"><![CDATA[<h1 id="Win10免费激活方法"><a href="#Win10免费激活方法" class="headerlink" title="Win10免费激活方法"></a>Win10免费激活方法</h1><blockquote><p>使用Microsoft-Activation-Scripts方式激活</p></blockquote><p>1.进入<a href="https://github.com/caesarlewis/Microsoft-Activation-Scripts">GITHUB</a>&#x2F;<a href="https://gitlab.com/massgrave/microsoft-activation-scripts">GITLAB</a> 页面进行下载</p><p>2.找到最新版本，例如</p><p><img src="/../img/page/win10Active/1.png" alt="1"></p><p>3.下载之后解压，打开All-In-One-Version文件夹中的MAS_AIO.bat文件</p><p>4.根据界面选择对应的版本进行激活。一般家庭版与专业版选择红框中的激活即可。</p><p><img src="/../img/page/win10Active/2.png" alt="2"></p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>多线程</title>
+      <link href="/posts/5729df21.html"/>
+      <url>/posts/5729df21.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="多线程"><a href="#多线程" class="headerlink" title="多线程"></a>多线程</h1><h2 id="多线程基本原理"><a href="#多线程基本原理" class="headerlink" title="多线程基本原理"></a>多线程基本原理</h2><h3 id="线程的运行状态"><a href="#线程的运行状态" class="headerlink" title="线程的运行状态"></a>线程的运行状态</h3><h3 id="线程的状态"><a href="#线程的状态" class="headerlink" title="线程的状态"></a>线程的状态</h3><ul><li>NEW：初始状态，线程被构建，但是还没有调用start方法</li><li>RUNNABLED：运行状态，Java线程把系统中的就绪与运行两种状态都统一为“运行中”</li><li>BLOCKED：阻塞状态，表示线程等待状态，线程因为某种原因放弃了cpu使用权<ul><li>等待阻塞：运行线程执行的wait方法，jvm会把当前线程加入到等待队列</li><li>同步阻塞：运行的线程在获取对象的同步锁，若该同步锁被其他线程持有，那么jvm会把当前的线程放入锁池中</li><li>其他阻塞：运行的线程执行Thread.sleep或者t.join方法，或者发出了I&#x2F;O请求，jvm会把当前线程设置为阻塞状态，当sleep结束，join线程终止，io处理完毕则线程恢复</li></ul></li><li>WAITING：等待状态</li><li>TIME_WAITING:超市等待状态，超时以后自动返回</li><li>TERMINATED:终止状态，表示当前线程执行完毕</li></ul><h3 id="线程的终止"><a href="#线程的终止" class="headerlink" title="线程的终止"></a>线程的终止</h3><h2 id="Thread-Dump日志分析"><a href="#Thread-Dump日志分析" class="headerlink" title="Thread Dump日志分析"></a>Thread Dump日志分析</h2>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>魔兽世界配置</title>
+      <link href="/posts/692a1439.html"/>
+      <url>/posts/692a1439.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="魔兽世界配置"><a href="#魔兽世界配置" class="headerlink" title="魔兽世界配置"></a>魔兽世界配置</h1><h2 id="反和谐配置"><a href="#反和谐配置" class="headerlink" title="反和谐配置"></a>反和谐配置</h2><ol><li><p>进入World of Warcraft_classic_\WTF目录</p></li><li><p>使用笔记本打开Config.wtf文件</p></li><li><p>在最后添加 </p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">SET overrideArchive &quot;0&quot;</span><br></pre></td></tr></table></figure></li><li><p>保存文件，并将文件设置为只读模式</p></li></ol>]]></content>
       
       
       

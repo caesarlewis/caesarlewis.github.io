@@ -4,6 +4,45 @@
   
     
     <entry>
+      <title>Hello World</title>
+      <link href="/posts/4a17b156.html"/>
+      <url>/posts/4a17b156.html</url>
+      
+        <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>    <div id="aplayer-VEXxjOOb" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="2339326384" data-server="netease" data-type="playlist" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#ad7a86"    ></div>    <div id="aplayer-xqWJjcGB" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="5068325488" data-server="netease" data-type="playlist" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="321px" data-preload="auto" data-theme="#555"    ></div>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>AI神经网络介绍及应用</title>
+      <link href="/posts/68277933.html"/>
+      <url>/posts/68277933.html</url>
+      
+        <content type="html"><![CDATA[<h2 id="生成对抗网络（Generative-Adversarial-Network-GAN）"><a href="#生成对抗网络（Generative-Adversarial-Network-GAN）" class="headerlink" title="生成对抗网络（Generative Adversarial Network, GAN）"></a>生成对抗网络（Generative Adversarial Network, GAN）</h2><p>原理：生成对抗网络核心在于“生成”与“对抗”，他们在网络中是生成器与判断器，通过他们两个之间互相较量，来生成新的结果。</p><p>生成器：通过收集现实的一些元素与素材，生成图片或音频，达到拥有生成（伪造）的能力</p><p>判断器：通过学习真实世界中的元素与素材，达到拥有鉴别真伪的能力</p><p>整个网络的过程就是生成器与判断器的较量过程，生成器生成的结果发送给判断器，让判断器判断真伪，如果不通过则生成器会再次学习，重新生成新的结果，发送给判断器。从此往复循环，达到生成器生成的结果，判断器辨别为真，并且生成器再也无法通过判断器的反馈而提升生成能力的时候，就是达到了平衡。</p><p>经典网络：cyclegen</p><p>作用：</p><ul><li>生成图片</li><li>人脸替换</li><li>变声</li><li>视频替换</li></ul><p>代表英剧：真相捕捉</p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>PyCharm 插件</title>
+      <link href="/posts/6d2231e5.html"/>
+      <url>/posts/6d2231e5.html</url>
+      
+        <content type="html"><![CDATA[<h2 id="翻译类"><a href="#翻译类" class="headerlink" title="翻译类"></a>翻译类</h2><h3 id="Translation"><a href="#Translation" class="headerlink" title="Translation"></a>Translation</h3><blockquote><p>翻译软件，点击就可以翻译</p></blockquote><h2 id="效率类"><a href="#效率类" class="headerlink" title="效率类"></a>效率类</h2><h3 id="activate-power-mode"><a href="#activate-power-mode" class="headerlink" title="activate-power-mode"></a>activate-power-mode</h3><blockquote><p>效果强化插件，减少审美疲劳</p></blockquote><h3 id="Rainbow-Brackets"><a href="#Rainbow-Brackets" class="headerlink" title="Rainbow Brackets"></a>Rainbow Brackets</h3><blockquote><p>代码变色，括号层级变色</p></blockquote><h3 id="Json-Parser"><a href="#Json-Parser" class="headerlink" title="Json Parser"></a>Json Parser</h3><blockquote><p>json 校验和格式化</p></blockquote><h3 id="Markdown-Image-Support"><a href="#Markdown-Image-Support" class="headerlink" title="Markdown Image Support"></a>Markdown Image Support</h3><blockquote><p>Markdown编辑器一键上传图片支持，适用于Jetbrains系列的常见产品。<br>特性：<br>多种存储支持，如本地&#x2F;七牛&#x2F;阿里云OSS&#x2F;MinIO等。<br>自定义文件名命名策略，并提供多种预设方案。<br>提供图片压缩功能，按照设置的压缩率压缩图片。<br>直接从粘贴图片到编辑器，自动上传图片并转换为Markdown标签。<br>直接复制一个或者多个图片文件到编辑器，自动上传图片并转换为Markdown标签。<br>通过Alt+Enter快捷键，智能删除图片，删除Markdown标记的同时，移除对应存储中的源文件。</p></blockquote><h2 id="显示类"><a href="#显示类" class="headerlink" title="显示类"></a>显示类</h2><h3 id="Background-Image-Plus"><a href="#Background-Image-Plus" class="headerlink" title="Background Image Plus"></a>Background Image Plus</h3><blockquote><p>替换背景图片</p></blockquote><h3 id="Material-Theme-UI"><a href="#Material-Theme-UI" class="headerlink" title="Material Theme UI"></a>Material Theme UI</h3><blockquote><p>主题插件，更换更多的主题</p></blockquote><h2 id="统计类"><a href="#统计类" class="headerlink" title="统计类"></a>统计类</h2><h3 id="Statistic"><a href="#Statistic" class="headerlink" title="Statistic"></a>Statistic</h3><blockquote><p>统计代码量</p></blockquote><h3 id=""><a href="#" class="headerlink" title=""></a></h3>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Anaconda更换源</title>
       <link href="/posts/f5c23575.html"/>
       <url>/posts/f5c23575.html</url>
@@ -22,19 +61,6 @@
       <url>/posts/57c2aac8.html</url>
       
         <content type="html"><![CDATA[<h2 id="OpenSSL"><a href="#OpenSSL" class="headerlink" title="OpenSSL"></a>OpenSSL</h2><p>错误：fatal: unable to access ‘https:&#x2F;&#x2F;<a href="https://so.csdn.net/so/search?q=github&spm=1001.2101.3001.7020">github</a>.com&#x2F;…’: OpenSSL SSL_read: Connection was reset, errno 10054</p><p>原因：产生原因：一般是这是因为服务器的<a href="https://so.csdn.net/so/search?q=SSL&spm=1001.2101.3001.7020">SSL</a>证书没有经过第三方机构的签署，所以才报错</p><p>解决方法：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git config --global http.sslVerify false</span><br></pre></td></tr></table></figure><h2 id="GitHub加速"><a href="#GitHub加速" class="headerlink" title="GitHub加速"></a>GitHub加速</h2><h3 id="根本原因"><a href="#根本原因" class="headerlink" title="根本原因"></a>根本原因</h3><blockquote><p>GitHub的CDN(Content Delivery Network,即内容分发网络)域名遭到DNS污染，无法连接使用GitHub的加速分发服务器，所以国内访问速度较慢。</p></blockquote><h3 id="解决方案：修改hosts文件"><a href="#解决方案：修改hosts文件" class="headerlink" title="解决方案：修改hosts文件"></a>解决方案：修改hosts文件</h3><blockquote><p>修改本地host文件，增加配置内容，绕过域名解析，达到加速的目的。</p></blockquote><ul><li><p>获取方式1:</p><ul><li>访问链接：<a href="https://raw.hellogithub.com/hosts%EF%BC%88ps%EF%BC%9A%E8%BF%99%E9%93%BE%E6%8E%A5%E5%AE%9A%E6%97%B6%E6%9B%B4%E6%96%B0%EF%BC%89%EF%BC%8C%E8%8E%B7%E5%8F%96%E5%AF%B9%E5%BA%94%E7%9A%84host%E9%85%8D%E7%BD%AE%E3%80%82">https://raw.hellogithub.com/hosts（ps：这链接定时更新），获取对应的host配置。</a></li><li>如果需要工具自动更新的话，点击链接：<a href="https://github.com/oldj/SwitchHosts">https://github.com/oldj/SwitchHosts</a></li></ul></li><li><p>获取方式2：</p><ul><li>github.global.ssl.fastly.net.ipaddress.com&#x2F;#ipinfo 访问这个网址。会得到CDN和IP地址，对应github.com</li><li>github.com.ipaddress.com&#x2F;#ipinfo 访问这个网址，会得到CDN和IP地址，对应github.global.ssl.fastly.net。</li></ul></li><li><p>添加hosts</p></li><li><pre><code>151.101.1.6             github.global.ssl.fastly.net140.82.113.4            github.com</code></pre></li></ul>]]></content>
-      
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>Hello World</title>
-      <link href="/posts/4a17b156.html"/>
-      <url>/posts/4a17b156.html</url>
-      
-        <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>    <div id="aplayer-lZOlKIjm" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="2339326384" data-server="netease" data-type="playlist" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#ad7a86"    ></div>    <div id="aplayer-zPnCXsGH" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="5068325488" data-server="netease" data-type="playlist" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="321px" data-preload="auto" data-theme="#555"    ></div>]]></content>
       
       
       

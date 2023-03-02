@@ -6,7 +6,7 @@
   <link href="https://caesarlewis.github.io/atom.xml" rel="self"/>
   
   <link href="https://caesarlewis.github.io/"/>
-  <updated>2022-11-21T12:45:32.017Z</updated>
+  <updated>2023-03-02T13:02:42.449Z</updated>
   <id>https://caesarlewis.github.io/</id>
   
   <author>
@@ -17,11 +17,92 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Hello World</title>
+    <link href="https://caesarlewis.github.io/posts/4a17b156.html"/>
+    <id>https://caesarlewis.github.io/posts/4a17b156.html</id>
+    <published>2023-03-02T13:02:42.449Z</published>
+    <updated>2023-03-02T13:02:42.449Z</updated>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>    <div id="aplayer-qQBNtwpq" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="2339326384" data-server="netease" data-type="playlist" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#ad7a86"    ></div>    <div id="aplayer-CSBEjCEh" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="5068325488" data-server="netease" data-type="playlist" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="321px" data-preload="auto" data-theme="#555"    ></div>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt; for</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>sdkman 安装与使用</title>
+    <link href="https://caesarlewis.github.io/posts/2788288f.html"/>
+    <id>https://caesarlewis.github.io/posts/2788288f.html</id>
+    <published>2022-12-18T16:01:46.000Z</published>
+    <updated>2023-03-02T13:02:42.449Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="SDKMan-安装与使用"><a href="#SDKMan-安装与使用" class="headerlink" title="SDKMan 安装与使用"></a>SDKMan 安装与使用</h1><h2 id="一、介绍"><a href="#一、介绍" class="headerlink" title="一、介绍"></a>一、介绍</h2><blockquote><p>SDKMan是多SDK下管理的工具，可以通过命令方便环境中的SDK快速切换</p></blockquote><h2 id="二、安装步骤"><a href="#二、安装步骤" class="headerlink" title="二、安装步骤"></a>二、安装步骤</h2><h3 id="Windows安装"><a href="#Windows安装" class="headerlink" title="Windows安装"></a>Windows安装</h3><h4 id="安装Linux环境"><a href="#安装Linux环境" class="headerlink" title="安装Linux环境"></a>安装Linux环境</h4><p>官方提供3中安装方式，可以任选一种</p><ul><li>安装<a href="https://links.jianshu.com/go?to=https://docs.microsoft.com/en-us/windows/wsl/install-win10">Windows Linux Subsystem</a> (WLS)和其他一些工具</li><li>安装<a href="https://links.jianshu.com/go?to=https://www.cygwin.com/install.html">Cygwin</a>以及一些工具</li><li>安装<a href="https://links.jianshu.com/go?to=https://git-scm.com/download/win">Git Bash for Windows</a>，包含<a href="https://links.jianshu.com/go?to=http://www.mingw.org/">MinGW</a>（Minimalist GNU for Windows），以及一些工具。</li></ul><h5 id="安装Git-Bash"><a href="#安装Git-Bash" class="headerlink" title="安装Git Bash"></a>安装Git Bash</h5><blockquote><p>正常安装git的流程</p></blockquote><ol><li>下载git Bash</li><li>点击安装</li><li>右击出现Git Bash的图标命令行工具</li></ol><h5 id="安装命令"><a href="#安装命令" class="headerlink" title="安装命令"></a>安装命令</h5><blockquote><p>要sdkman能正常安装，需要安装一些其他工具，看信息提示主要有curl，unzip，zip和sed，由于Git Bash自带的MinGW是简单版本的，已经有部分软件已经安装上了,如果缺少会报错</p></blockquote><ol><li>访问<a href="https://sourceforge.net/projects/gnuwin32/files/">Gnuwin</a>网站下载缺少的命令</li><li>选择对应的命令的最高版本</li><li>下载${}-bin.zip文件</li><li>解压文件，将bin目录中的文件放入Git安装目录mingw的bin中（例如：D:\Git\mingw64\bin）</li></ol><h4 id="下载及安装"><a href="#下载及安装" class="headerlink" title="下载及安装"></a>下载及安装</h4><blockquote><p>如果遇到访问Git网络等问题，请参考Github疑难杂症文章</p></blockquote><ol><li><p>执行以下下载命令</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">curl -s &quot;https://get.sdkman.io&quot; | bash</span><br></pre></td></tr></table></figure></li><li><p>添加sdkman到PATH中</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">source &quot;$HOME/.sdkman/bin/sdkman-init.sh&quot;</span><br></pre></td></tr></table></figure></li><li><p>检查SDK</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sdk version</span><br></pre></td></tr></table></figure></li></ol><h2 id="三、基本使用"><a href="#三、基本使用" class="headerlink" title="三、基本使用"></a>三、基本使用</h2><blockquote><p>详情参考<a href="https://sdkman.io/usage">官方使用手册</a></p></blockquote><h3 id="一般使用"><a href="#一般使用" class="headerlink" title="一般使用"></a>一般使用</h3><h4 id="查找要安装的SDK"><a href="#查找要安装的SDK" class="headerlink" title="查找要安装的SDK"></a>查找要安装的SDK</h4><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta prompt_"># </span><span class="language-bash">查找所有的SDK list</span></span><br><span class="line">sdk list</span><br><span class="line"><span class="meta prompt_">#</span><span class="language-bash">查找对应的SDK list</span></span><br><span class="line">sdk list java</span><br></pre></td></tr></table></figure><h4 id="执行安装"><a href="#执行安装" class="headerlink" title="执行安装"></a>执行安装</h4><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta prompt_">#</span><span class="language-bash">根据sdk list中的版本进行安装</span></span><br><span class="line">sdk install java 22.3.r17-grl</span><br></pre></td></tr></table></figure><h4 id="设置默认SDK"><a href="#设置默认SDK" class="headerlink" title="设置默认SDK"></a>设置默认SDK</h4><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta prompt_">#</span><span class="language-bash"></span></span><br><span class="line"><span class="language-bash">sdk default scala 3.2.1</span></span><br></pre></td></tr></table></figure><h4 id="切换SDK使用"><a href="#切换SDK使用" class="headerlink" title="切换SDK使用"></a>切换SDK使用</h4><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sdk use java 22.3.r17-grl</span><br></pre></td></tr></table></figure><h4 id="创建ENV"><a href="#创建ENV" class="headerlink" title="创建ENV"></a>创建ENV</h4><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta prompt_"># </span><span class="language-bash">先更改当前bash中使用的SDK版本</span></span><br><span class="line">sdk use java 22.3.r17-grl</span><br><span class="line"><span class="meta prompt_"># </span><span class="language-bash">再使用创建命令初始化</span></span><br><span class="line">sdk env init</span><br><span class="line"><span class="meta prompt_"># </span><span class="language-bash">查看当前sdk <span class="built_in">env</span>的配置</span></span><br><span class="line">sdk env</span><br></pre></td></tr></table></figure><blockquote><p>可以配置sdkman_auto_env&#x3D;true，可以根据cd命令切换到不同的文件夹中，判断当前的sdk version</p></blockquote><h4 id="配置"><a href="#配置" class="headerlink" title="配置"></a>配置</h4><blockquote><p>配置位置为：~&#x2F;.sdkman&#x2F;etc&#x2F;config</p><p>命令配置为：sdk config</p></blockquote><p>配置参数如下：</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta prompt_"># </span><span class="language-bash">make sdkman non-interactive, preferred <span class="keyword">for</span> CI environments</span></span><br><span class="line">sdkman_auto_answer=true|false</span><br><span class="line"><span class="meta prompt_"></span></span><br><span class="line"><span class="meta prompt_"># </span><span class="language-bash">check <span class="keyword">for</span> newer versions and prompt <span class="keyword">for</span> update</span></span><br><span class="line">sdkman_selfupdate_enable=true|false</span><br><span class="line"><span class="meta prompt_"></span></span><br><span class="line"><span class="meta prompt_"># </span><span class="language-bash">disables SSL certificate verification</span></span><br><span class="line"><span class="meta prompt_"># </span><span class="language-bash">https://github.com/sdkman/sdkman-cli/issues/327</span></span><br><span class="line"><span class="meta prompt_"># </span><span class="language-bash">HERE BE DRAGONS....</span></span><br><span class="line">sdkman_insecure_ssl=true|false</span><br><span class="line"><span class="meta prompt_"></span></span><br><span class="line"><span class="meta prompt_"># </span><span class="language-bash">configure curl timeouts</span></span><br><span class="line">sdkman_curl_connect_timeout=5</span><br><span class="line">sdkman_curl_continue=true</span><br><span class="line">sdkman_curl_max_time=10</span><br><span class="line"><span class="meta prompt_"></span></span><br><span class="line"><span class="meta prompt_"># </span><span class="language-bash">subscribe to the beta channel</span></span><br><span class="line">sdkman_beta_channel=true|false</span><br><span class="line"><span class="meta prompt_"></span></span><br><span class="line"><span class="meta prompt_"># </span><span class="language-bash"><span class="built_in">enable</span> verbose debugging</span></span><br><span class="line">sdkman_debug_mode=true|false</span><br><span class="line"><span class="meta prompt_"></span></span><br><span class="line"><span class="meta prompt_"># </span><span class="language-bash"><span class="built_in">enable</span> colour mode</span></span><br><span class="line">sdkman_colour_enable=true|false</span><br><span class="line"><span class="meta prompt_"></span></span><br><span class="line"><span class="meta prompt_"># </span><span class="language-bash"><span class="built_in">enable</span> automatic <span class="built_in">env</span></span></span><br><span class="line">sdkman_auto_env=true|false</span><br><span class="line"><span class="meta prompt_"></span></span><br><span class="line"><span class="meta prompt_"># </span><span class="language-bash"><span class="built_in">enable</span> rosetta2 compatibility <span class="keyword">for</span> apple silicon</span></span><br><span class="line">sdkman_rosetta2_compatible=true|false</span><br><span class="line"><span class="meta prompt_"></span></span><br><span class="line"><span class="meta prompt_"># </span><span class="language-bash"><span class="built_in">enable</span> bash or zsh auto-completion</span></span><br><span class="line">sdkman_auto_complete=true|false</span><br></pre></td></tr></table></figure>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;SDKMan-安装与使用&quot;&gt;&lt;a href=&quot;#SDKMan-安装与使用&quot; class=&quot;headerlink&quot; title=&quot;SDKMan 安装与使用&quot;&gt;&lt;/a&gt;SDKMan 安装与使用&lt;/h1&gt;&lt;h2 id=&quot;一、介绍&quot;&gt;&lt;a href=&quot;#一、介绍&quot; cla</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>sprint boot 3.0 Native Image</title>
+    <link href="https://caesarlewis.github.io/posts/445e9923.html"/>
+    <id>https://caesarlewis.github.io/posts/445e9923.html</id>
+    <published>2022-12-17T22:49:10.000Z</published>
+    <updated>2023-03-02T13:02:42.449Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="GraalVM-安装"><a href="#GraalVM-安装" class="headerlink" title="GraalVM 安装"></a>GraalVM 安装</h2><ul><li><p>Install GraalVM and Native Image</p><ol><li><p>进入官网<a href="https://www.graalvm.org/downloads/%E4%B8%8B%E8%BD%BD">https://www.graalvm.org/downloads/下载</a></p></li><li><p>解压文件，并将内容设置为JAVA_HOME</p></li><li><p>安装Native Image</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">gu install native-image</span><br></pre></td></tr></table></figure></li><li><p>检查安装结果</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">gu list</span><br></pre></td></tr></table></figure></li></ol></li><li><p>Install Visual Studio Build Tools or Windows 10 SDK</p><ol><li><p>Download the Visual Studio Build Tools (C development environment) from <a href="https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=BuildTools&rel=16">visualstudio.microsoft.com</a>.</p></li><li><p>Start the Visual Studio Build Tools installation by clicking on the <em>.exe</em> file, and then press Continue:</p></li><li><p>Check the <strong>Desktop development with C++</strong> box in the main window. Also, on the right side under Installation Details, choose <strong>Windows 10 SDK,</strong> MSVC V142(对应的系统版本)and click the <strong>Install</strong> button.</p></li><li><p>配置变量到PATH中</p><blockquote><p>主要为了找到cl.exe这个文件</p></blockquote><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Tools\MSVC\14.29.30133\bin\Hostx64\x64</span><br></pre></td></tr></table></figure></li><li><p>After the installation completes, reboot your system.</p></li></ol><p>Now that you have the Windows 10 SDK and Visual Studio tooling installed, you can start using <a href="https://www.graalvm.org/reference-manual/native-image/">GraalVM Native Image</a>.</p></li></ul><p>windows</p><p><a href="https://medium.com/graalvm/using-graalvm-and-native-image-on-windows-10-9954dc071311">https://medium.com/graalvm/using-graalvm-and-native-image-on-windows-10-9954dc071311</a></p><p>系统环境配置</p><h3 id="问题"><a href="#问题" class="headerlink" title="问题"></a>问题</h3><ul><li>Default native-compiler executable ‘cl.exe‘ not found via environment variable PATH</li></ul><p>需要在PATH中增加以下变量</p><p>如果安装的是BuildTools</p><p>C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Tools\MSVC\14.29.30133\bin\Hostx64\x64</p><p>如果安装的是Community</p><p>C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.16.27023\bin\HostX64\x64</p><p>如果360提示报错</p><p>那么关闭360</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;GraalVM-安装&quot;&gt;&lt;a href=&quot;#GraalVM-安装&quot; class=&quot;headerlink&quot; title=&quot;GraalVM 安装&quot;&gt;&lt;/a&gt;GraalVM 安装&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Install GraalVM and Native Im</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>工具网站</title>
+    <link href="https://caesarlewis.github.io/posts/92edcf8f.html"/>
+    <id>https://caesarlewis.github.io/posts/92edcf8f.html</id>
+    <published>2022-12-06T21:28:45.000Z</published>
+    <updated>2023-03-02T13:02:42.449Z</updated>
+    
+    <content type="html"><![CDATA[<p><a href="https://repository.apache.org/content/repositories/releases/">https://repository.apache.org/content/repositories/releases/</a></p><p>一些网站</p><p><a href="https://java-design-patterns.com/patterns/">https://java-design-patterns.com/patterns/</a></p><p><a href="https://search.maven.org/">https://search.maven.org/</a></p><p>仓库服务<br><a href="https://developer.aliyun.com/mvn/guide">https://developer.aliyun.com/mvn/guide</a></p><p>代码美化<br><a href="https://carbon.now.sh/">https://carbon.now.sh/</a><br>字符画<br><a href="https://asciiflow.com/#/">https://asciiflow.com/#/</a><br>学习app<br>Stack Exchange</p><p>插件安装<br>插件扩展<br><a href="https://www.extfans.com/">https://www.extfans.com/</a><br>Tampermonkey 油猴</p><p>英语词源学<br><a href="https://www.etymonline.com/">https://www.etymonline.com/</a></p><p>js语法<br><a href="https://developer.mozilla.org/zh-CN/">https://developer.mozilla.org/zh-CN/</a></p><p>培养孩子<br><a href="https://www.starfall.com/h/">https://www.starfall.com/h/</a></p><p>一些类库<br><a href="https://www.21doc.net/java/awesomejava">https://www.21doc.net/java/awesomejava</a></p><p>shell 学习<br><a href="https://explainshell.com/">https://explainshell.com/</a><br><a href="https://www.shell.how/">https://www.shell.how/</a></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;&lt;a href=&quot;https://repository.apache.org/content/repositories/releases/&quot;&gt;https://repository.apache.org/content/repositories/releases/&lt;/a&gt;&lt;/</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
     <title>powershell 禁止运行脚本</title>
     <link href="https://caesarlewis.github.io/posts/32feda1c.html"/>
     <id>https://caesarlewis.github.io/posts/32feda1c.html</id>
     <published>2022-11-21T20:33:52.000Z</published>
-    <updated>2022-11-21T12:45:32.017Z</updated>
+    <updated>2023-03-02T13:02:42.449Z</updated>
     
     <content type="html"><![CDATA[<p>1.使用管理员运行windows powershell</p><p>2.执行set-executionpolicy remotesigned 命令</p><p>3.输入Y</p><p>![image-20221121203940801](..&#x2F;img&#x2F;windows powershell&#x2F;image-20221121203940801.png)</p><p>源自CSDN</p><p><a href="https://blog.csdn.net/Ximerr/article/details/123498701">https://blog.csdn.net/Ximerr/article/details/123498701</a></p>]]></content>
     
@@ -40,31 +121,11 @@
   </entry>
   
   <entry>
-    <title>Hello World</title>
-    <link href="https://caesarlewis.github.io/posts/4a17b156.html"/>
-    <id>https://caesarlewis.github.io/posts/4a17b156.html</id>
-    <published>2022-11-21T12:45:32.017Z</published>
-    <updated>2022-11-21T12:45:32.017Z</updated>
-    
-    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>    <div id="aplayer-wLoxslXy" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="2339326384" data-server="netease" data-type="playlist" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#ad7a86"    ></div>    <div id="aplayer-YXqPTFVc" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="5068325488" data-server="netease" data-type="playlist" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="321px" data-preload="auto" data-theme="#555"    ></div>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt; for</summary>
-      
-    
-    
-    
-    
-  </entry>
-  
-  <entry>
     <title>AI神经网络介绍及应用</title>
     <link href="https://caesarlewis.github.io/posts/68277933.html"/>
     <id>https://caesarlewis.github.io/posts/68277933.html</id>
     <published>2022-11-12T11:23:05.000Z</published>
-    <updated>2022-11-21T12:45:32.013Z</updated>
+    <updated>2023-03-02T13:02:42.449Z</updated>
     
     <content type="html"><![CDATA[<h2 id="生成对抗网络（Generative-Adversarial-Network-GAN）"><a href="#生成对抗网络（Generative-Adversarial-Network-GAN）" class="headerlink" title="生成对抗网络（Generative Adversarial Network, GAN）"></a>生成对抗网络（Generative Adversarial Network, GAN）</h2><p>原理：生成对抗网络核心在于“生成”与“对抗”，他们在网络中是生成器与判断器，通过他们两个之间互相较量，来生成新的结果。</p><p>生成器：通过收集现实的一些元素与素材，生成图片或音频，达到拥有生成（伪造）的能力</p><p>判断器：通过学习真实世界中的元素与素材，达到拥有鉴别真伪的能力</p><p>整个网络的过程就是生成器与判断器的较量过程，生成器生成的结果发送给判断器，让判断器判断真伪，如果不通过则生成器会再次学习，重新生成新的结果，发送给判断器。从此往复循环，达到生成器生成的结果，判断器辨别为真，并且生成器再也无法通过判断器的反馈而提升生成能力的时候，就是达到了平衡。</p><p>经典网络：cyclegen</p><p>作用：</p><ul><li>生成图片</li><li>人脸替换</li><li>变声</li><li>视频替换</li></ul><p>代表英剧：真相捕捉</p>]]></content>
     
@@ -84,7 +145,7 @@
     <link href="https://caesarlewis.github.io/posts/6d2231e5.html"/>
     <id>https://caesarlewis.github.io/posts/6d2231e5.html</id>
     <published>2022-11-12T10:26:43.000Z</published>
-    <updated>2022-11-21T12:45:32.017Z</updated>
+    <updated>2023-03-02T13:02:42.449Z</updated>
     
     <content type="html"><![CDATA[<h2 id="翻译类"><a href="#翻译类" class="headerlink" title="翻译类"></a>翻译类</h2><h3 id="Translation"><a href="#Translation" class="headerlink" title="Translation"></a>Translation</h3><blockquote><p>翻译软件，点击就可以翻译</p></blockquote><h2 id="效率类"><a href="#效率类" class="headerlink" title="效率类"></a>效率类</h2><h3 id="activate-power-mode"><a href="#activate-power-mode" class="headerlink" title="activate-power-mode"></a>activate-power-mode</h3><blockquote><p>效果强化插件，减少审美疲劳</p></blockquote><h3 id="Rainbow-Brackets"><a href="#Rainbow-Brackets" class="headerlink" title="Rainbow Brackets"></a>Rainbow Brackets</h3><blockquote><p>代码变色，括号层级变色</p></blockquote><h3 id="Json-Parser"><a href="#Json-Parser" class="headerlink" title="Json Parser"></a>Json Parser</h3><blockquote><p>json 校验和格式化</p></blockquote><h3 id="Markdown-Image-Support"><a href="#Markdown-Image-Support" class="headerlink" title="Markdown Image Support"></a>Markdown Image Support</h3><blockquote><p>Markdown编辑器一键上传图片支持，适用于Jetbrains系列的常见产品。<br>特性：<br>多种存储支持，如本地&#x2F;七牛&#x2F;阿里云OSS&#x2F;MinIO等。<br>自定义文件名命名策略，并提供多种预设方案。<br>提供图片压缩功能，按照设置的压缩率压缩图片。<br>直接从粘贴图片到编辑器，自动上传图片并转换为Markdown标签。<br>直接复制一个或者多个图片文件到编辑器，自动上传图片并转换为Markdown标签。<br>通过Alt+Enter快捷键，智能删除图片，删除Markdown标记的同时，移除对应存储中的源文件。</p></blockquote><h2 id="显示类"><a href="#显示类" class="headerlink" title="显示类"></a>显示类</h2><h3 id="Background-Image-Plus"><a href="#Background-Image-Plus" class="headerlink" title="Background Image Plus"></a>Background Image Plus</h3><blockquote><p>替换背景图片</p></blockquote><h3 id="Material-Theme-UI"><a href="#Material-Theme-UI" class="headerlink" title="Material Theme UI"></a>Material Theme UI</h3><blockquote><p>主题插件，更换更多的主题</p></blockquote><h2 id="统计类"><a href="#统计类" class="headerlink" title="统计类"></a>统计类</h2><h3 id="Statistic"><a href="#Statistic" class="headerlink" title="Statistic"></a>Statistic</h3><blockquote><p>统计代码量</p></blockquote><h3 id=""><a href="#" class="headerlink" title=""></a></h3>]]></content>
     
@@ -104,7 +165,7 @@
     <link href="https://caesarlewis.github.io/posts/f5c23575.html"/>
     <id>https://caesarlewis.github.io/posts/f5c23575.html</id>
     <published>2022-11-10T21:26:13.000Z</published>
-    <updated>2022-11-21T12:45:32.013Z</updated>
+    <updated>2023-03-02T13:02:42.449Z</updated>
     
     <content type="html"><![CDATA[<h1 id="Anaconda更换源"><a href="#Anaconda更换源" class="headerlink" title="Anaconda更换源"></a>Anaconda更换源</h1><h2 id="换源"><a href="#换源" class="headerlink" title="换源"></a>换源</h2><h3 id="清华源"><a href="#清华源" class="headerlink" title="清华源"></a>清华源</h3><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free/</span><br><span class="line">conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main/</span><br><span class="line">conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/conda-forge/</span><br><span class="line">conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/msys2/</span><br><span class="line">conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/menpo/</span><br><span class="line"></span><br><span class="line">conda config --set show_channel_urls yes</span><br></pre></td></tr></table></figure><h3 id="中科大源"><a href="#中科大源" class="headerlink" title="中科大源"></a>中科大源</h3><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">conda config --add channels https://mirrors.ustc.edu.cn/anaconda/pkgs/main/</span><br><span class="line">conda config --add channels https://mirrors.ustc.edu.cn/anaconda/pkgs/free/</span><br><span class="line">conda config --add channels https://mirrors.ustc.edu.cn/anaconda/cloud/conda-forge/</span><br><span class="line">conda config --add channels https://mirrors.ustc.edu.cn/anaconda/cloud/msys2/</span><br><span class="line">conda config --add channels https://mirrors.ustc.edu.cn/anaconda/cloud/bioconda/</span><br><span class="line">conda config --add channels https://mirrors.ustc.edu.cn/anaconda/cloud/menpo/</span><br><span class="line"> </span><br><span class="line">conda config --set show_channel_urls yes</span><br></pre></td></tr></table></figure><h2 id="查看源"><a href="#查看源" class="headerlink" title="查看源"></a>查看源</h2><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">conda config --show</span><br></pre></td></tr></table></figure><h2 id="恢复默认源"><a href="#恢复默认源" class="headerlink" title="恢复默认源"></a>恢复默认源</h2><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">conda config --remove-key channels</span><br></pre></td></tr></table></figure>]]></content>
     
@@ -124,9 +185,9 @@
     <link href="https://caesarlewis.github.io/posts/57c2aac8.html"/>
     <id>https://caesarlewis.github.io/posts/57c2aac8.html</id>
     <published>2022-11-10T21:26:13.000Z</published>
-    <updated>2022-11-21T12:45:32.013Z</updated>
+    <updated>2023-03-02T13:02:42.449Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="OpenSSL"><a href="#OpenSSL" class="headerlink" title="OpenSSL"></a>OpenSSL</h2><p>错误：fatal: unable to access ‘https:&#x2F;&#x2F;<a href="https://so.csdn.net/so/search?q=github&spm=1001.2101.3001.7020">github</a>.com&#x2F;…’: OpenSSL SSL_read: Connection was reset, errno 10054</p><p>原因：产生原因：一般是这是因为服务器的<a href="https://so.csdn.net/so/search?q=SSL&spm=1001.2101.3001.7020">SSL</a>证书没有经过第三方机构的签署，所以才报错</p><p>解决方法：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git config --global http.sslVerify false</span><br></pre></td></tr></table></figure><h2 id="GitHub加速"><a href="#GitHub加速" class="headerlink" title="GitHub加速"></a>GitHub加速</h2><h3 id="根本原因"><a href="#根本原因" class="headerlink" title="根本原因"></a>根本原因</h3><blockquote><p>GitHub的CDN(Content Delivery Network,即内容分发网络)域名遭到DNS污染，无法连接使用GitHub的加速分发服务器，所以国内访问速度较慢。</p></blockquote><h3 id="解决方案：修改hosts文件"><a href="#解决方案：修改hosts文件" class="headerlink" title="解决方案：修改hosts文件"></a>解决方案：修改hosts文件</h3><blockquote><p>修改本地host文件，增加配置内容，绕过域名解析，达到加速的目的。</p></blockquote><ul><li><p>获取方式1:</p><ul><li>访问链接：<a href="https://raw.hellogithub.com/hosts%EF%BC%88ps%EF%BC%9A%E8%BF%99%E9%93%BE%E6%8E%A5%E5%AE%9A%E6%97%B6%E6%9B%B4%E6%96%B0%EF%BC%89%EF%BC%8C%E8%8E%B7%E5%8F%96%E5%AF%B9%E5%BA%94%E7%9A%84host%E9%85%8D%E7%BD%AE%E3%80%82">https://raw.hellogithub.com/hosts（ps：这链接定时更新），获取对应的host配置。</a></li><li>如果需要工具自动更新的话，点击链接：<a href="https://github.com/oldj/SwitchHosts">https://github.com/oldj/SwitchHosts</a></li></ul></li><li><p>获取方式2：</p><ul><li>github.global.ssl.fastly.net.ipaddress.com&#x2F;#ipinfo 访问这个网址。会得到CDN和IP地址，对应github.com</li><li>github.com.ipaddress.com&#x2F;#ipinfo 访问这个网址，会得到CDN和IP地址，对应github.global.ssl.fastly.net。</li></ul></li><li><p>添加hosts</p></li><li><pre><code>151.101.1.6             github.global.ssl.fastly.net140.82.113.4            github.com</code></pre></li></ul>]]></content>
+    <content type="html"><![CDATA[<h2 id="OpenSSL"><a href="#OpenSSL" class="headerlink" title="OpenSSL"></a>OpenSSL</h2><p>错误：fatal: unable to access ‘https:&#x2F;&#x2F;<a href="https://so.csdn.net/so/search?q=github&spm=1001.2101.3001.7020">github</a>.com&#x2F;…’: OpenSSL SSL_read: Connection was reset, errno 10054</p><p>原因：产生原因：一般是这是因为服务器的<a href="https://so.csdn.net/so/search?q=SSL&spm=1001.2101.3001.7020">SSL</a>证书没有经过第三方机构的签署，所以才报错</p><p>解决方法：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git config --global http.sslVerify false</span><br></pre></td></tr></table></figure><h2 id="GitHub加速"><a href="#GitHub加速" class="headerlink" title="GitHub加速"></a>GitHub加速</h2><p>错误：Failed to connect to github.com port 443: Timed out</p><h3 id="根本原因"><a href="#根本原因" class="headerlink" title="根本原因"></a>根本原因</h3><blockquote><p>GitHub的CDN(Content Delivery Network,即内容分发网络)域名遭到DNS污染，无法连接使用GitHub的加速分发服务器，所以国内访问速度较慢。</p></blockquote><h3 id="解决方案：修改hosts文件"><a href="#解决方案：修改hosts文件" class="headerlink" title="解决方案：修改hosts文件"></a>解决方案：修改hosts文件</h3><blockquote><p>修改本地host文件，增加配置内容，绕过域名解析，达到加速的目的。</p></blockquote><ul><li><p>获取方式1:</p><ul><li>访问链接：<a href="https://raw.hellogithub.com/hosts%EF%BC%88ps%EF%BC%9A%E8%BF%99%E9%93%BE%E6%8E%A5%E5%AE%9A%E6%97%B6%E6%9B%B4%E6%96%B0%EF%BC%89%EF%BC%8C%E8%8E%B7%E5%8F%96%E5%AF%B9%E5%BA%94%E7%9A%84host%E9%85%8D%E7%BD%AE%E3%80%82">https://raw.hellogithub.com/hosts（ps：这链接定时更新），获取对应的host配置。</a></li><li>如果需要工具自动更新的话，点击链接：<a href="https://github.com/oldj/SwitchHosts">https://github.com/oldj/SwitchHosts</a></li></ul></li><li><p>获取方式2：</p><ul><li>github.global.ssl.fastly.net.ipaddress.com&#x2F;#ipinfo 访问这个网址。会得到CDN和IP地址，对应github.com</li><li>github.com.ipaddress.com&#x2F;#ipinfo 访问这个网址，会得到CDN和IP地址，对应github.global.ssl.fastly.net。</li></ul></li><li><p>手动获取github.com域名IP链接</p><ul><li><a href="https://github.com.ipaddress.com/">https://github.com.ipaddress.com/</a></li></ul></li><li><p>手动获取github.global.ssl.fastly.net域名IP链接</p><ul><li><a href="https://www.ipaddress.com/site/fastly.net#ipinfo">https://www.ipaddress.com/site/fastly.net#ipinfo</a></li></ul></li><li><p>添加hosts</p></li><li><pre><code>151.101.1.6             github.global.ssl.fastly.net140.82.113.4            github.com</code></pre></li></ul>]]></content>
     
     
       
@@ -144,7 +205,7 @@
     <link href="https://caesarlewis.github.io/posts/64a3bb0a.html"/>
     <id>https://caesarlewis.github.io/posts/64a3bb0a.html</id>
     <published>2022-09-24T15:29:55.000Z</published>
-    <updated>2022-11-21T12:45:32.017Z</updated>
+    <updated>2023-03-02T13:02:42.449Z</updated>
     
     <content type="html"><![CDATA[<h1 id="MySQL-运维"><a href="#MySQL-运维" class="headerlink" title="MySQL 运维"></a>MySQL 运维</h1><h2 id="死锁问题解决"><a href="#死锁问题解决" class="headerlink" title="死锁问题解决"></a>死锁问题解决</h2><h2 id="查看所有线程"><a href="#查看所有线程" class="headerlink" title="查看所有线程"></a>查看所有线程</h2><p>show  processlist;</p><h2 id="当前运行的所有事务"><a href="#当前运行的所有事务" class="headerlink" title="当前运行的所有事务"></a>当前运行的所有事务</h2><p>SELECT * FROM information_schema.INNODB_TRX;</p><h2 id="当前运行的所有锁"><a href="#当前运行的所有锁" class="headerlink" title="当前运行的所有锁"></a>当前运行的所有锁</h2><p>SELECT * FROM information_schema.INNODB_LOCKs;</p><p>使用Kill 命令杀死线程</p>]]></content>
     
@@ -164,7 +225,7 @@
     <link href="https://caesarlewis.github.io/posts/2a6f096a.html"/>
     <id>https://caesarlewis.github.io/posts/2a6f096a.html</id>
     <published>2022-09-24T15:29:55.000Z</published>
-    <updated>2022-11-21T12:45:32.017Z</updated>
+    <updated>2023-03-02T13:02:42.449Z</updated>
     
     <content type="html"><![CDATA[<h1 id="Win10免费激活方法"><a href="#Win10免费激活方法" class="headerlink" title="Win10免费激活方法"></a>Win10免费激活方法</h1><blockquote><p>使用Microsoft-Activation-Scripts方式激活</p></blockquote><p>1.进入<a href="https://github.com/caesarlewis/Microsoft-Activation-Scripts">GITHUB</a>&#x2F;<a href="https://gitlab.com/massgrave/microsoft-activation-scripts">GITLAB</a> 页面进行下载</p><p>2.找到最新版本，例如</p><p><img src="/../img/page/win10Active/1.png" alt="1"></p><p>3.下载之后解压，打开All-In-One-Version文件夹中的MAS_AIO.bat文件</p><p>4.根据界面选择对应的版本进行激活。一般家庭版与专业版选择红框中的激活即可。</p><p><img src="/../img/page/win10Active/2.png" alt="2"></p>]]></content>
     
@@ -185,7 +246,7 @@
     <link href="https://caesarlewis.github.io/posts/5729df21.html"/>
     <id>https://caesarlewis.github.io/posts/5729df21.html</id>
     <published>2022-09-24T15:29:55.000Z</published>
-    <updated>2022-11-21T12:45:32.017Z</updated>
+    <updated>2023-03-02T13:02:42.449Z</updated>
     
     <content type="html"><![CDATA[<h1 id="多线程"><a href="#多线程" class="headerlink" title="多线程"></a>多线程</h1><h2 id="多线程基本原理"><a href="#多线程基本原理" class="headerlink" title="多线程基本原理"></a>多线程基本原理</h2><h3 id="线程的运行状态"><a href="#线程的运行状态" class="headerlink" title="线程的运行状态"></a>线程的运行状态</h3><h3 id="线程的状态"><a href="#线程的状态" class="headerlink" title="线程的状态"></a>线程的状态</h3><ul><li>NEW：初始状态，线程被构建，但是还没有调用start方法</li><li>RUNNABLED：运行状态，Java线程把系统中的就绪与运行两种状态都统一为“运行中”</li><li>BLOCKED：阻塞状态，表示线程等待状态，线程因为某种原因放弃了cpu使用权<ul><li>等待阻塞：运行线程执行的wait方法，jvm会把当前线程加入到等待队列</li><li>同步阻塞：运行的线程在获取对象的同步锁，若该同步锁被其他线程持有，那么jvm会把当前的线程放入锁池中</li><li>其他阻塞：运行的线程执行Thread.sleep或者t.join方法，或者发出了I&#x2F;O请求，jvm会把当前线程设置为阻塞状态，当sleep结束，join线程终止，io处理完毕则线程恢复</li></ul></li><li>WAITING：等待状态</li><li>TIME_WAITING:超市等待状态，超时以后自动返回</li><li>TERMINATED:终止状态，表示当前线程执行完毕</li></ul><h3 id="线程的终止"><a href="#线程的终止" class="headerlink" title="线程的终止"></a>线程的终止</h3><h2 id="Thread-Dump日志分析"><a href="#Thread-Dump日志分析" class="headerlink" title="Thread Dump日志分析"></a>Thread Dump日志分析</h2>]]></content>
     
@@ -205,7 +266,7 @@
     <link href="https://caesarlewis.github.io/posts/692a1439.html"/>
     <id>https://caesarlewis.github.io/posts/692a1439.html</id>
     <published>2022-09-24T15:29:55.000Z</published>
-    <updated>2022-11-21T12:45:32.017Z</updated>
+    <updated>2023-03-02T13:02:42.449Z</updated>
     
     <content type="html"><![CDATA[<h1 id="魔兽世界配置"><a href="#魔兽世界配置" class="headerlink" title="魔兽世界配置"></a>魔兽世界配置</h1><h2 id="反和谐配置"><a href="#反和谐配置" class="headerlink" title="反和谐配置"></a>反和谐配置</h2><ol><li><p>进入World of Warcraft_classic_\WTF目录</p></li><li><p>使用笔记本打开Config.wtf文件</p></li><li><p>在最后添加 </p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">SET overrideArchive &quot;0&quot;</span><br></pre></td></tr></table></figure></li><li><p>保存文件，并将文件设置为只读模式</p></li></ol>]]></content>
     
@@ -225,7 +286,7 @@
     <link href="https://caesarlewis.github.io/posts/fd00229f.html"/>
     <id>https://caesarlewis.github.io/posts/fd00229f.html</id>
     <published>2022-09-21T21:26:13.000Z</published>
-    <updated>2022-11-21T12:45:32.017Z</updated>
+    <updated>2023-03-02T13:02:42.449Z</updated>
     
     <content type="html"><![CDATA[<h1 id="Maven-新版本-打包报错-maven-default-http-blocker-http-0-0-0-0-Blocked-mirror-for-repositories"><a href="#Maven-新版本-打包报错-maven-default-http-blocker-http-0-0-0-0-Blocked-mirror-for-repositories" class="headerlink" title="Maven 新版本 打包报错 maven-default-http-blocker (http://0.0.0.0/): Blocked mirror for repositories"></a>Maven 新版本 打包报错 maven-default-http-blocker (<a href="http://0.0.0.0/">http://0.0.0.0/</a>): Blocked mirror for repositories</h1><blockquote><p>Maven新版本不允许使用http来访问资源库（3.8.1以上版本）</p></blockquote><p>配置修改方案：</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">将Maven的Setting中的http改为https</span><br></pre></td></tr></table></figure>]]></content>
     
@@ -245,7 +306,7 @@
     <link href="https://caesarlewis.github.io/posts/28bd7ebe.html"/>
     <id>https://caesarlewis.github.io/posts/28bd7ebe.html</id>
     <published>2022-09-18T22:02:02.000Z</published>
-    <updated>2022-11-21T12:45:32.017Z</updated>
+    <updated>2023-03-02T13:02:42.449Z</updated>
     
     <content type="html"><![CDATA[<h1 id="截图工具"><a href="#截图工具" class="headerlink" title="截图工具"></a>截图工具</h1><h2 id="Snipaste"><a href="#Snipaste" class="headerlink" title="Snipaste"></a>Snipaste</h2><blockquote><p>强大的截图工具</p></blockquote><p>URL:<a href="https://www.snipaste.com/">https://www.snipaste.com/</a></p>]]></content>
     
@@ -265,7 +326,7 @@
     <link href="https://caesarlewis.github.io/posts/92aaaa20.html"/>
     <id>https://caesarlewis.github.io/posts/92aaaa20.html</id>
     <published>2022-09-18T21:37:01.000Z</published>
-    <updated>2022-11-21T12:45:32.017Z</updated>
+    <updated>2023-03-02T13:02:42.449Z</updated>
     
     <content type="html"><![CDATA[<h1 id="提升开发效率和质量的插件"><a href="#提升开发效率和质量的插件" class="headerlink" title="提升开发效率和质量的插件"></a>提升开发效率和质量的插件</h1><ul><li>Tabnine AI Code Completion<ul><li>AI代码补全，比IDEA自带更加强大</li></ul></li><li>String Manipulation<ul><li>字符串处理插件，多种字符串处理方式</li></ul></li><li>GsonFormatPlus<ul><li>根据json生成属性与get&#x2F;set方法</li></ul></li><li>JUnitGenerator V2.0<ul><li>单元测试代码生成</li></ul></li><li>SequenceDiagram<ul><li>生成代码时序图</li></ul></li><li>RestfulTool<ul><li>Restful服务开发工具集，可调用接口</li></ul></li><li>Alibaba Java Coding Guidelines<ul><li>代码检查工具</li></ul></li><li>MyBatis X<ul><li>MyBatis插件，可根据表结构自动生成代码</li></ul></li></ul><h1 id="提升IDEA本身功能的插件"><a href="#提升IDEA本身功能的插件" class="headerlink" title="提升IDEA本身功能的插件"></a>提升IDEA本身功能的插件</h1><ul><li><p>Background Image Plus</p><ul><li>背景图片</li></ul></li><li><p>Chinese(Simplified)</p><ul><li>IDEA语言包</li></ul></li><li><p>Translation</p><ul><li><p>代码中代词翻译</p></li><li><p>配置方式</p></li><li><p>第一步:更换引擎进入配置页</p><p><img src="/../img/page/idea%E6%8F%92%E4%BB%B6%E5%A4%A7%E5%85%A8/translation%E6%8F%92%E4%BB%B61.png" alt="translation插件1"></p></li><li><p>第二步：注册应用</p><p><img src="/../img/page/idea%E6%8F%92%E4%BB%B6%E5%A4%A7%E5%85%A8/translation%E6%8F%92%E4%BB%B62.png" alt="translation插件2"></p></li><li><p>第三步：获取Key</p><p><img src="/../img/page/idea%E6%8F%92%E4%BB%B6%E5%A4%A7%E5%85%A8/translation%E6%8F%92%E4%BB%B63.png" alt="translation插件3"></p></li></ul></li><li><p>Key Promoter X</p><ul><li>快捷键提示</li></ul></li><li><p>Rainbow bracket</p><ul><li>彩虹括号，不同层级代码颜色不同</li></ul></li><li><p>Code Glance</p><ul><li>代码小地图，方便长代码浏览</li></ul></li><li><p>Statistic</p><ul><li>代码统计插件，方便统计代码的注释与行数，及文件类型等</li></ul></li></ul>]]></content>
     
@@ -286,7 +347,7 @@
     <link href="https://caesarlewis.github.io/posts/af4f715c.html"/>
     <id>https://caesarlewis.github.io/posts/af4f715c.html</id>
     <published>2022-09-18T21:26:13.000Z</published>
-    <updated>2022-11-21T12:45:32.017Z</updated>
+    <updated>2023-03-02T13:02:42.449Z</updated>
     
     <content type="html"><![CDATA[<h1 id="npm更换源"><a href="#npm更换源" class="headerlink" title="npm更换源"></a>npm更换源</h1><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm config set registry https://registry.npm.taobao.org</span><br></pre></td></tr></table></figure><blockquote><p>yarn 同理，将npm改成yarn即可</p></blockquote>]]></content>
     
